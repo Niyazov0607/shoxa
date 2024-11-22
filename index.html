@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./js/index.js"></script>
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <div class="container">
+                    <div
+                        class="flex items-center justify-center nav__wrapper tablet:justify-between py-[20px]"
+                    >
+                        <div class="">
+                            <img src="./assets/icon/logo (1).svg" alt="" />
+                        </div>
+                        <div class="flex gap-[25px]">
+                            <button
+                                class="hidden text-center rounded-[20px] desktop:block text-[#009379] font-[600] pr-[20px] nav__btn"
+                            >
+                                <a href="">Contact</a>
+                            </button>
+                            <button
+                                class="hidden duration-200 bg-emerald-50 tablet:block rounded-[20px] py-[18px] px-[50px] text-[#009379] font-[600] hover:bg-teal-600 hover:text-white"
+                            >
+                                <a href="">How it works</a>
+                            </button>
+                            <div class="relative">
+                                <div
+                                    class="absolute left-[15%] bottom-[32%] desktop:"
+                                >
+                                    <img
+                                        src="./assets/icon/rocketLaunch.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <button
+                                    class="hidden duration-200 desktop:block rounded-[20px] bg-[#009379] py-[18px] px-[55px] text-white font-[600] hover:bg-teal-400 hover:text-white"
+                                >
+                                    <a href="">Get Started</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div
+                        class="items-center justify-center desktop:justify-between py-[50px] desktop:flex"
+                    >
+                        <div class="text-center">
+                            <h1
+                                class="font-[700] text-[38px] text-center pt-[60px] tablet:text-[67px] desktop:text-left"
+                            >
+                                Create <br class="tablet:hidden" />Engaging
+                                <br />Landing Pages
+                            </h1>
+                            <p
+                                class="items-start pt-[20px] tablet:text-[21px] desktop:text-left"
+                            >
+                                Build beautiful landing pages in record
+                                <br class="tablet:hidden" />time with
+                                <a class="text-blue-600" href="">Anima’s</a>
+                                Landing
+                                <br
+                                    class="hidden tablet:block desktop:block"
+                                />Page UI kit for
+                                <br class="tablet:hidden" />Figma. No code
+                                required!
+                            </p>
+                            <div class="desktop:flex items-center gap-[18px]">
+                                <div class="pt-[30px] relative">
+                                    <div
+                                        class="absolute left-[27%] bottom-[22%] tablet:left-[39%] desktop:left-[16%]"
+                                    >
+                                        <img
+                                            src="./assets/icon/rocketLaunch.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <button
+                                        class="rounded-[20px] bg-[#009379] py-[18px] px-[55px] duration-200 text-white font-[600] hover:bg-teal-400 hover:text-white"
+                                    >
+                                        <a href="">Get Started</a>
+                                    </button>
+                                </div>
+                                <div class="desktop:pt-[35px]">
+                                    <button
+                                        class="hidden desktop:block duration-200 rounded-[20px] py-[18px] px-[55px] text-[#009379] bg-emerald-50 hover:bg-teal-600 hover:text-white"
+                                    >
+                                        <a href="">How it works</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="pt-[40px] w-[320px] desktop:w-[450px] tablet:m-auto"
+                        >
+                            <img
+                                src="./assets/images/hero img (2).png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="logo">
+                <div class="container">
+                    <div
+                        class="logo__wrapper py-[30px] px-[30px] justify-center tablet:flex items-center text-center gap-[52.5px] desktop:gap-[136px]"
+                    >
+                        <hr />
+                        <div
+                            class="flex justify-center gap-[52.5px] pt-[46px] items-center desktop:gap-[136px]"
+                        >
+                            <div>
+                                <img
+                                    src="./assets/icon/_client logo (1).png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    src="./assets/icon/_client logo (2).png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    src="./assets/icon/_client logo.png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div
+                            class="flex py-[30px] justify-center gap-[52.5px] items-center tablet:pt-[65px] desktop:gap-[136px]"
+                        >
+                            <div>
+                                <img
+                                    src="./assets/icon/_client logo (3).png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    src="./assets/icon/_client logo (4).png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img src="./assets/icon/layer 2.png" alt="" />
+                            </div>
+                        </div>
+                        <hr class="pt-[46px]" />
+                    </div>
+                </div>
+            </section>
+            <section class="features">
+                <div class="container">
+                    <div class="features__wrapper justify-center text-center">
+                        <h1 class="font-[600] text-[38px] pt-[50px]">
+                            Features
+                        </h1>
+                        <p class="pt-[30px]">
+                            Few good reasons why you should use <br />Anima
+                            Landing Page Ui Kit to make your <br />own pages.
+                        </p>
+                        <div
+                            class="py-[50px] justify-center text-center desktop:flex items-center gap-[30px]"
+                        >
+                            <div
+                                class="justify-center shadow-2xl py-[40px] px-[30px] rounded-[20px] desktop:w-[370px] h-[384px] mt-[50px]"
+                            >
+                                <div
+                                    class="ml-[90px] tablet:ml-[318px] desktop:ml-[118px]"
+                                >
+                                    <img src="./assets/icon/iIcon.png" alt="" />
+                                </div>
+                                <h2 class="pt-[30px] font-[600] text-[28px]">
+                                    Fast building
+                                </h2>
+                                <p class="pt-[25px]">
+                                    Tailor Anima's Landing Page UI <br />Kit to
+                                    your unique style and brand <br />with
+                                    customisable components, in <br />no time!
+                                </p>
+                                <div
+                                    class="pt-[33px] text-[#009379] font-[600]"
+                                >
+                                    <button>Learn More</button>
+                                </div>
+                                <div class="relative">
+                                    <img
+                                        class="absolute after: content-'' left-[68%] bottom-[10%] tablet:left-[57%] desktop:left-[65%]"
+                                        src="./assets/icon/ArrowRight.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="justify-center shadow-2xl py-[40px] px-[30px] rounded-[20px] mt-[50px] desktop:w-[370px] h-[384px]"
+                            >
+                                <div
+                                    class="ml-[90px] tablet:ml-[318px] desktop:ml-[118px]"
+                                >
+                                    <img src="./assets/icon/iIcon.png" alt="" />
+                                </div>
+                                <h2 class="pt-[30px] font-[600] text-[28px]">
+                                    Fast building
+                                </h2>
+                                <p class="pt-[25px]">
+                                    Tailor Anima's Landing Page UI <br />Kit to
+                                    your unique style and brand <br />with
+                                    customisable components, in <br />no time!
+                                </p>
+                                <div
+                                    class="pt-[33px] text-[#009379] font-[600]"
+                                >
+                                    <button>Learn More</button>
+                                </div>
+                                <div class="relative">
+                                    <img
+                                        class="absolute after: content-'' left-[68%] bottom-[10%] tablet:left-[57%] desktop:left-[65%]"
+                                        src="./assets/icon/ArrowRight.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="justify-center shadow-2xl py-[40px] px-[30px] rounded-[20px] mt-[50px] desktop:w-[370px] h-[384px]"
+                            >
+                                <div
+                                    class="ml-[90px] tablet:ml-[318px] desktop:ml-[118px]"
+                                >
+                                    <img src="./assets/icon/iIcon.png" alt="" />
+                                </div>
+                                <h2 class="pt-[30px] font-[600] text-[28px]">
+                                    Fast building
+                                </h2>
+                                <p class="pt-[25px]">
+                                    Tailor Anima's Landing Page UI <br />Kit to
+                                    your unique style and brand <br />with
+                                    customisable components, in <br />no time!
+                                </p>
+                                <div
+                                    class="pt-[33px] text-[#009379] font-[600]"
+                                >
+                                    <button>Learn More</button>
+                                </div>
+                                <div class="relative">
+                                    <img
+                                        class="absolute after: content-'' left-[68%] bottom-[10%] tablet:left-[57%] desktop:left-[65%]"
+                                        src="./assets/icon/ArrowRight.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="kit">
+                <div class="container">
+                    <div
+                        class="kit__wrapper text-center items-center mt-[50px] tablet:justify-center gap-[30px] tablet:flex"
+                    >
+                        <div class="">
+                            <img src="./assets/images/Visuals (1).png" alt="" />
+                        </div>
+                        <div>
+                            <h2
+                                class="font-[600] text-[28px] tablet:text-left tablet:font-[700] tablet:text-[38px]"
+                            >
+                                Get Landing Page UI <br />Kit Today!
+                            </h2>
+                            <p class="pt-[30px] tablet:text-left">
+                                Break the Figma limits and explore the
+                                <br />endless possibilities with Anima.
+                            </p>
+                            <div class="mt-[40px]">
+                                <button
+                                    class="font-[600] bg-[#009379] py-[18px] px-[60px] duration-200 rounded-[20px] text-white tablet:mr-[160px] hover:bg-teal-400 hover:text-white"
+                                >
+                                    Get Started
+                                </button>
+                                <div class="relative">
+                                    <img
+                                        class="absolute left-[70%] bottom-[18px] text-white tablet:left-[42%]"
+                                        src="./assets/icon/ArrowLeft.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="metrics">
+                <div class="container">
+                    <div
+                        class="max-w-7xl mx-auto px-6 text-center desktop:mt-[120px] mt-[60px]"
+                    >
+                        <h2 class="text-3xl font-extrabold text-gray-800">
+                            Our Metrics Tell the Story
+                        </h2>
+                        <p class="mt-4 text-lg text-gray-600">
+                            Our metrics component gives you visible results as
+                            you grow your business and design with Anima.
+                        </p>
+
+                        <div
+                            class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 desktop:gap-8 desktop:flex desktop:justify-center desktop:gap-[30px] gap-[20px] tablet:flex tablet:gap-[30px]"
+                        >
+                            <div
+                                class="flex gap-[20px] tablet:block tablet:flex tablet:gap-[30px]"
+                            >
+                                <div
+                                    class="shadow-2xl desktop:w-[270px] desktop:pt-[50px] desktop:h-[171px] rounded-[20px] tablet:w-[165px] tablet:h-[150px] tablet:pt-[25px] w-[147px] h-[164px] pt-[20px]"
+                                >
+                                    <p class="text-4xl font-bold text-gray-800">
+                                        10k+
+                                    </p>
+                                    <p class="mt-2 text-lg text-gray-600">
+                                        Websites
+                                        <br class="desktop:hidden" />launched
+                                    </p>
+                                </div>
+                                <div
+                                    class="shadow-2xl desktop:w-[270px] desktop:pt-[50px] desktop:h-[171px] rounded-[20px] tablet:w-[165px] tablet:h-[150px] tablet:pt-[30px] w-[147px] h-[164px] tablet:pt-[40px]"
+                                >
+                                    <p class="text-4xl font-bold text-gray-800">
+                                        931k+
+                                    </p>
+                                    <p
+                                        class="mt-2 text-lg text-gray-600 tablet:hidden desktop:block"
+                                    >
+                                        Projects created with Anima
+                                    </p>
+                                    <p class="desktop:hidden">
+                                        Projects created
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex gap-[20px] tablet:block tablet:flex tablet:gap-[30px]"
+                            >
+                                <div
+                                    class="shadow-2xl rounded-[20px] desktop:w-[270px] desktop:pt-[50px] desktop:h-[171px] tablet:w-[165px] tablet:h-[150px] tablet:pt-[25px] w-[147px] h-[164px] pt-[20px]"
+                                >
+                                    <p class="text-4xl font-bold text-gray-800">
+                                        240k+
+                                    </p>
+                                    <p class="mt-2 text-lg text-gray-600">
+                                        New users joined Anima
+                                    </p>
+                                </div>
+                                <div
+                                    class="shadow-2xl rounded-[20px] desktop:w-[270px] desktop:pt-[50px] desktop:h-[171px] tablet:w-[165px] tablet:h-[150px] tablet:pt-[25px] w-[147px] h-[164px] pt-[20px]"
+                                >
+                                    <p class="text-4xl font-bold text-gray-800">
+                                        12k+
+                                    </p>
+                                    <p class="mt-2 text-lg text-gray-600">
+                                        Teams used Anima
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="real">
+                <div class="container">
+                    <div class="real__wrapper">
+                        <h1
+                            class="text-center text-[38px] font-[600] mt-[100px]"
+                        >
+                            Real Stories from <br />Satisfied <br />Customers
+                        </h1>
+                        <p class="text-center pt-[20px]">
+                            See how our landing page ui kit is making <br />an
+                            impact.
+                        </p>
+                        <div
+                            class="desktop:flex desktop:justify-center desktop:gap-[30px] mt-[50px]"
+                        >
+                            <div
+                                class="py-[40px] px-[30px] shadow-2xl rounded-[20px] tablet:flex tablet :items-center tablet:justify-center desktop:w-[370px] desktop:h-[434px] desktop:flex-col"
+                            >
+                                <div class="">
+                                    <div
+                                        class="pt-[20px] ml-[128px] tablet:mr-[130px]"
+                                    >
+                                        <img
+                                            src="./assets/images/Photo.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h1
+                                        class="text-center pt-[16px] font-[600] text-[21px]"
+                                    >
+                                        Michael L.
+                                    </h1>
+                                    <p
+                                        class="text-center pt-[16px] text-[#374151]"
+                                    >
+                                        Creative Director @Yo
+                                    </p>
+                                </div>
+                                <div class="m-auto">
+                                    <p
+                                        class="text-center pt-[30px] tablet:text-left desktop:text-center"
+                                    >
+                                        “The Landing Page UI Kit has <br />been
+                                        a game changer for my <br />agency. The
+                                        pre-designed <br />
+                                        components and templates have
+                                        <br />helped us deliver projects faster
+                                        <br />and with more consistency. Great
+                                        <br />job!"
+                                    </p>
+                                    <div
+                                        class="flex justify-center gap-[5px] pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[40px] px-[30px] shadow-2xl rounded-[20px] tablet:flex tablet :items-center tablet:justify-center desktop:w-[370px] desktop:h-[434px] desktop:flex-col"
+                            >
+                                <div class="">
+                                    <div
+                                        class="pt-[20px] ml-[128px] tablet:mr-[130px]"
+                                    >
+                                        <img
+                                            src="./assets/images/Photo.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h1
+                                        class="text-center pt-[16px] font-[600] text-[21px]"
+                                    >
+                                        Michael L.
+                                    </h1>
+                                    <p
+                                        class="text-center pt-[16px] text-[#374151]"
+                                    >
+                                        Creative Director @Yo
+                                    </p>
+                                </div>
+                                <div>
+                                    <p
+                                        class="text-center pt-[30px] tablet:text-left desktop:text-center"
+                                    >
+                                        “The Landing Page UI Kit has <br />been
+                                        a game changer for my <br />agency. The
+                                        pre-designed <br />
+                                        components and templates have
+                                        <br />helped us deliver projects faster
+                                        <br />and with more consistency. Great
+                                        <br />job!"
+                                    </p>
+                                    <div
+                                        class="flex justify-center gap-[5px] pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[40px] px-[30px] shadow-2xl rounded-[20px] tablet:flex tablet :items-center tablet:justify-center desktop:w-[370px] desktop:h-[434px] desktop:flex-col"
+                            >
+                                <div class="">
+                                    <div
+                                        class="pt-[20px] ml-[128px] tablet:mr-[130px]"
+                                    >
+                                        <img
+                                            src="./assets/images/Photo.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h1
+                                        class="text-center pt-[16px] font-[600] text-[21px]"
+                                    >
+                                        Michael L.
+                                    </h1>
+                                    <p
+                                        class="text-center pt-[16px] text-[#374151]"
+                                    >
+                                        Creative Director @Yo
+                                    </p>
+                                </div>
+                                <div>
+                                    <p
+                                        class="text-center pt-[30px] tablet:text-left desktop:text-center"
+                                    >
+                                        “The Landing Page UI Kit has <br />been
+                                        a game changer for my <br />agency. The
+                                        pre-designed <br />
+                                        components and templates have
+                                        <br />helped us deliver projects faster
+                                        <br />and with more consistency. Great
+                                        <br />job!"
+                                    </p>
+                                    <div
+                                        class="flex justify-center gap-[5px] pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icon/Star Icon.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pick">
+                <div class="container">
+                    <div
+                        class="pick__wrapper justify-center text-center py-[200px]"
+                    >
+                        <h1
+                            class="text-3xl font-bold text-gray-800 text-center mb-10"
+                        >
+                            Pick Your Perfect Plan
+                        </h1>
+                        <p class="text-gray-600 mt-2 text-center mb-10">
+                            Find the perfect plan for your business with our
+                            flexible pricing options.
+                        </p>
+                        <div
+                            class="max-w-7xl mx-auto md:grid-cols-3 gap-6 justify-evenly desktop:flex"
+                        >
+                            <div
+                                class="border duration-200 border-gray-300 rounded-lg shadow-sm p-6 bg-white text-left mt-[20px] hover:bg-[#009379]"
+                            >
+                                <h2 class="text-xl font-semibold text-gray-800">
+                                    Free
+                                </h2>
+                                <p
+                                    class="text-4xl font-bold text-gray-800 mt-4"
+                                >
+                                    $0<span class="text-lg font-medium"
+                                        >/month</span
+                                    >
+                                </p>
+                                <p class="text-gray-600 mt-2">
+                                    Best for Small Teams or Individuals.
+                                </p>
+                                <ul class="mt-4 space-y-2">
+                                    <li class="text-gray-700">
+                                        ✔ Write feature details here
+                                    </li>
+                                    <li class="text-gray-700">
+                                        ✔ Write feature details here
+                                    </li>
+                                    <li class="text-gray-700">
+                                        ✔ Write feature details here
+                                    </li>
+                                    <li class="text-gray-700">
+                                        ✔ Write feature details here
+                                    </li>
+                                </ul>
+                                <button
+                                    class="duration-200 mt-6 bg-teal-300 text-white font-semibold py-[14px] px-[108px] rounded-[20px] hover:bg-teal-600"
+                                >
+                                    Get Started
+                                </button>
+                            </div>
+                            <div
+                                class="duration-200 border border-gray-300 rounded-lg shadow-sm p-6 bg-white text-left mt-[20px] hover:bg-[#009379]"
+                            >
+                                <h2 class="text-xl font-semibold text-gray-800">
+                                    Professional
+                                </h2>
+                                <p
+                                    class="text-4xl font-bold text-gray-800 mt-4"
+                                >
+                                    $19<span class="text-lg font-medium"
+                                        >/month</span
+                                    >
+                                </p>
+                                <p class="text-gray-600 mt-2">
+                                    Ideal for Growing Companies.
+                                </p>
+                                <ul class="mt-4 space-y-2">
+                                    <li class="text-gray-700">
+                                        ✔ Write feature details here
+                                    </li>
+                                    <li class="text-gray-700">
+                                        ✔ Write feature details here
+                                    </li>
+                                    <li class="text-gray-700">
+                                        ✔ Write feature details here
+                                    </li>
+                                    <li class="text-gray-700">
+                                        ✔ Write feature details here
+                                    </li>
+                                </ul>
+                                <button
+                                    class="duration-200 mt-6 bg-teal-300 text-white font-semibold py-[14px] px-[108px] rounded-[20px] hover:bg-teal-600"
+                                >
+                                    Get Started
+                                </button>
+                            </div>
+                            <div
+                                class="border border-gray-300 rounded-lg shadow-sm p-6 bg-[#009379] text-left mt-[20px]"
+                            >
+                                <h2 class="text-xl font-semibold text-white">
+                                    Enterprise
+                                </h2>
+                                <p class="text-4xl font-bold text-white mt-4">
+                                    $49<span class="text-lg font-medium"
+                                        >/month</span
+                                    >
+                                </p>
+                                <p class="text-white mt-2">
+                                    Ultimate for Enterprise Solutions.
+                                </p>
+                                <ul class="mt-4 space-y-2">
+                                    <li class="text-white">
+                                        ✔ Write feature details here
+                                    </li>
+                                    <li class="text-white">
+                                        ✔ Write feature details here
+                                    </li>
+                                    <li class="text-white">
+                                        ✔ Write feature details here
+                                    </li>
+                                    <li class="text-white">
+                                        ✔ Write feature details here
+                                    </li>
+                                </ul>
+                                <button
+                                    class="duration-200 mt-6 bg-white text-[#009379] font-semibold py-[14px] px-[108px] rounded-[20px] hover:bg-teal-600 hover:text-white"
+                                >
+                                    Get Started
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="meet">
+                <div class="container">
+                    <div
+                        class="meet__wrapper justify-center text-center"
+                    >
+                        <h1 class="font-[700] text-[38px]">Meet our team</h1>
+                        <p>
+                            Get to know the faces behind the scenes and learn
+                            about the values that drive us.
+                        </p>
+                        <div class="desktop:flex justify-center gap-[30px] py-[30px] text-center tablet:flex">
+                            <div class="shadow-2xl rounded-[20px] mt-[30px]">
+                                <div class="">
+                                    <img
+                                        src="./assets/images/Profile Image Placeholder 1.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <h2 class="font-[700] text-[21px] pt-[20px]">
+                                    Sarah K.
+                                </h2>
+                                <p class="pt-[10px]">UX Designer</p>
+                                <hr class="mt-[10px]" />
+                                <div
+                                    class="flex justify-center py-[20px] gap-[10px]"
+                                >
+                                    <div>
+                                        <img
+                                            src="./assets/icon/Social Icons.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div>
+                                        <img
+                                            src="./assets/icon/Social Icons (1).png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div>
+                                        <img
+                                            src="./assets/icon/Social Icons (2).png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shadow-2xl rounded-[20px] mt-[30px]">
+                                <div class="">
+                                    <img
+                                        src="./assets/images/Profile Image Placeholder 1.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <h2 class="font-[700] text-[21px] pt-[20px]">
+                                    Sarah K.
+                                </h2>
+                                <p class="pt-[10px]">UX Designer</p>
+                                <hr class="mt-[10px]" />
+                                <div
+                                    class="flex justify-center py-[20px] gap-[10px]"
+                                >
+                                    <div>
+                                        <img
+                                            src="./assets/icon/Social Icons.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div>
+                                        <img
+                                            src="./assets/icon/Social Icons (1).png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div>
+                                        <img
+                                            src="./assets/icon/Social Icons (2).png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shadow-2xl rounded-[20px] mt-[30px]">
+                                <div class="">
+                                    <img
+                                        src="./assets/images/Profile Image Placeholder 1.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <h2 class="font-[700] text-[21px] pt-[20px]">
+                                    Sarah K.
+                                </h2>
+                                <p class="pt-[10px]">UX Designer</p>
+                                <hr class="mt-[10px]" />
+                                <div
+                                    class="flex justify-center py-[20px] gap-[10px]"
+                                >
+                                    <div>
+                                        <img
+                                            src="./assets/icon/Social Icons.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div>
+                                        <img
+                                            src="./assets/icon/Social Icons (1).png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div>
+                                        <img
+                                            src="./assets/icon/Social Icons (2).png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
